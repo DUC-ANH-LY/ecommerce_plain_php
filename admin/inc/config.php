@@ -9,16 +9,16 @@ date_default_timezone_set('Asia/Dubai');
 $dbhost = 'localhost';
 
 // Database Name
-$dbname = 'fashiony_ogs';
+$dbname = 'ecommerce';
 
 // Database Username
-$dbuser = 'root';
+$dbuser = 'ducanh';
 
 // Database Password
-$dbpass = '';
+$dbpass = 'ducanh172';
 
 // Defining base url
-define("BASE_URL", "http://fashionys.com/");
+define("BASE_URL", "http://localhost:9999/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
